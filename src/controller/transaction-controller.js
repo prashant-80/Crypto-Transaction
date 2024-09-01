@@ -1,11 +1,11 @@
-const { TransactionService } = require('../services');
+const { transactionService } = require('../services');
 const AppError = require('../utils/errors/app-error');
 const { SuccessResponse, ErrorResponse } = require("../utils/common");
 
 async function getTransactions(req, res) {
     try {
         const address = req.params.address;
-        const transactions = await TransactionService.getTransactions(address);
+        const transactions = await transactionService.getTransactions(address);
         SuccessResponse.data = transactions;
         return res.status(200).json(SuccessResponse);
     } catch (error) {
