@@ -1,4 +1,7 @@
+const transactionService = require('./transaction-service');
+const etheriumService = require('./etherium-service');
+
 module.exports = {
-    TransactionService: require('./transaction-service'),
-    
+   transactionService,
+   etheriumService
 }
