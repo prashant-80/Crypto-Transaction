@@ -4,7 +4,7 @@ This project is a Node.js API service for cryptocurrency-related operations, dep
 
 ## Deployed URL
 
-The API is live at: http://crypto-api-env.eba-5peemqe3.ap-south-1.elasticbeanstalk.com/
+The API is live at: http://crypto-api-env.eba-5peemqe3.ap-south-1.elasticbeanstalk.com/ {api endpoint}
 
 ## API Routes
 
