@@ -13,6 +13,10 @@ The API is live at: http://crypto-api-env.eba-5peemqe3.ap-south-1.elasticbeansta
 - **Method**: GET
 - **Description**: Fetches the current price of Ethereum in INR.
 - **Response**: JSON object containing the current Ethereum price.
+  
+  <img width="846" alt="Screenshot 2024-09-02 at 11 08 35 PM" src="https://github.com/user-attachments/assets/3b998cc6-473b-4884-929d-3e68cbdd0328">
+
+
 
 ### 2. Get Transactions
 - **Endpoint**: `/api/v1/transaction/:address`
@@ -21,6 +25,9 @@ The API is live at: http://crypto-api-env.eba-5peemqe3.ap-south-1.elasticbeansta
 - **Parameters**: 
   - `address`: Ethereum address (required)
 - **Response**: JSON object containing transaction details.
+  
+  <img width="891" alt="Screenshot 2024-09-02 at 11 10 42 PM" src="https://github.com/user-attachments/assets/72c9b151-8a74-47f7-b267-98a92a6cbc61">
+
 
 ### 3. Get Expenses
 - **Endpoint**: `/api/v1/expense/:address`
@@ -29,6 +36,9 @@ The API is live at: http://crypto-api-env.eba-5peemqe3.ap-south-1.elasticbeansta
 - **Parameters**: 
   - `address`: Ethereum address (required)
 - **Response**: JSON object containing expense details.
+  
+  <img width="1094" alt="Screenshot 2024-09-02 at 11 09 06 PM" src="https://github.com/user-attachments/assets/4e59ec94-62a7-4ceb-962f-57b3dc1acb53">
+
 
 ## Local Development
 
