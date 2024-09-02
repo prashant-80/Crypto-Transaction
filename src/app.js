@@ -13,8 +13,9 @@ app.use('/api', apiRoutes);
 
 app.use(errorHandler);
 
-app.listen(ServerConfig.PORT, async () => {
-  console.log(`Server is running on port ${ServerConfig.PORT}`);
+const port = process.env.PORT || ServerConfig.PORT;
+app.listen(port, async () => {
+  console.log(`Server is running on port ${port}`);
   await connectDB();
   console.log('Connected to MongoDB');
   startEtheriumPriceUpdates();
